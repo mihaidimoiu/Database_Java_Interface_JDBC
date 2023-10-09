@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdreseInsert">
+   <children>
+      <Label layoutX="94.0" layoutY="57.0" text="Linia 1" />
+      <Label layoutX="94.0" layoutY="121.0" text="Linia 2" />
+      <Label layoutX="100.0" layoutY="171.0" text="Oras" />
+      <Label layoutX="98.0" layoutY="231.0" prefHeight="21.0" prefWidth="36.0" text="Judet" />
+      <Label layoutX="81.0" layoutY="294.0" text="Cod Postal" />
+      <TextField fx:id="field1" layoutX="360.0" layoutY="52.0" />
+      <TextField fx:id="field2" alignment="CENTER" layoutX="360.0" layoutY="116.0" />
+      <TextField fx:id="field3" layoutX="360.0" layoutY="166.0" />
+      <TextField fx:id="field4" layoutX="360.0" layoutY="226.0" />
+      <TextField fx:id="field5" layoutX="360.0" layoutY="289.0" />
+      <Button fx:id="insert" layoutX="425.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#insert" text="Adauga" />
+      <Button fx:id="close" layoutX="88.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#close" text="Revoca" />
+      <Label fx:id="status" layoutX="278.0" layoutY="21.0" text="Status:" />
+   </children>
+</AnchorPane>

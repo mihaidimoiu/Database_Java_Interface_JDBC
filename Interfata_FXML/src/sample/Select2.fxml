@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="826.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Select">
+   <children>
+      <TableView fx:id="tableview" layoutX="14.0" layoutY="304.0" prefHeight="240.0" prefWidth="800.0" />
+      <Button fx:id="close" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#close" text="Inapoi" />
+      <Button fx:id="select" layoutX="96.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#select" text="Afiseaza" />
+      <Button fx:id="selectAll" layoutX="684.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#selectAll" text="Toate produsele" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="72.0" prefHeight="44.0" prefWidth="62.0" text="Cauta" />
+      <ComboBox fx:id="cb" layoutX="87.0" layoutY="79.0" onAction="#cbsel" prefWidth="150.0" />
+      <Label fx:id="labelNume" layoutX="344.0" layoutY="45.0" text="Label" />
+      <TextField fx:id="field1" layoutX="285.0" layoutY="79.0" />
+      <Label layoutX="344.0" layoutY="158.0" text="efectuat cumparaturi din orasul" />
+      <ComboBox fx:id="cb2" layoutX="172.0" layoutY="153.0" onAction="#cbsel2" prefWidth="150.0" />
+      <Label layoutX="37.0" layoutY="158.0" text="Toti clienti care" />
+      <Label layoutX="18.0" layoutY="222.0" text="Toate produsele care" />
+      <ComboBox fx:id="cb3" layoutX="172.0" layoutY="217.0" onAction="#cbsel3" prefWidth="150.0" />
+      <Label layoutX="362.0" layoutY="222.0" text="fost cumparate." />
+      <TextField fx:id="field2" layoutX="577.0" layoutY="153.0" />
+   </children>
+</AnchorPane>

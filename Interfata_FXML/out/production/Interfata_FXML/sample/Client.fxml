@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client">
+   <children>
+      <Button fx:id="btn1" layoutX="433.0" layoutY="323.0" mnemonicParsing="false" onMouseClicked="#add" text="Adauga" />
+      <Button fx:id="btn2" layoutX="80.0" layoutY="323.0" mnemonicParsing="false" onMouseClicked="#close" text="Revoca" />
+      <Label layoutX="94.0" layoutY="57.0" text="Nume" />
+      <Label layoutX="97.0" layoutY="117.0" text="C.N.P." />
+      <Label layoutX="84.0" layoutY="180.0" text="ID Adresa" />
+      <Label layoutX="103.0" layoutY="248.0" text="Sex" />
+      <TextField fx:id="field1" layoutX="376.0" layoutY="52.0" />
+      <TextField fx:id="field2" layoutX="376.0" layoutY="112.0" />
+      <TextField fx:id="field3" layoutX="376.0" layoutY="175.0" />
+      <TextField fx:id="field4" layoutX="376.0" layoutY="233.0" />
+   </children>
+</AnchorPane>

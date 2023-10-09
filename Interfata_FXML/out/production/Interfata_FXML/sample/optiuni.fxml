@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.optiuniClass">
+   <children>
+      <Button fx:id="btnSelect" layoutX="68.0" layoutY="49.0" mnemonicParsing="false" onMouseClicked="#select" text="Select" />
+      <Button fx:id="btnUpdate" onMouseClicked="#update" layoutX="450.0" layoutY="64.0" mnemonicParsing="false" text="Update" />
+      <Button fx:id="btnInsert" layoutX="69.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#insert" text="Insert" />
+      <Button fx:id="btnDelete" layoutX="453.0" layoutY="300.0" mnemonicParsing="false" onMouseClicked="#delete" text="Delete" />
+      <Button fx:id="disc" layoutX="253.0" layoutY="185.0" mnemonicParsing="false" onMouseClicked="#disconnect" text="Disconnect" />
+      <Label fx:id="status" layoutX="256.0" layoutY="69.0" text="Status:" />
+   </children>
+</AnchorPane>

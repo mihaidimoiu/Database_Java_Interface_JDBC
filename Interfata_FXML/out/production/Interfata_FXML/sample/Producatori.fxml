@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="sample.Producatori" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="btn1" layoutX="429.0" layoutY="312.0" mnemonicParsing="false" onMouseClicked="#add" text="Adauga" />
+      <Button fx:id="btn2" layoutX="88.0" layoutY="312.0" mnemonicParsing="false" onMouseClicked="#close" text="Revoca" />
+      <Label layoutX="63.0" layoutY="168.0" text="Nume Producator" />
+      <TextField fx:id="field1" layoutX="372.0" layoutY="163.0" />
+   </children>
+</AnchorPane>
